@@ -61,56 +61,56 @@ class RecyclerAdapter extends RecyclerView.Adapter < RecyclerAdapter.ViewHolder 
                 Intent intent = new Intent ( context, Detail.class );
 
                 if ( position == 0 ) {
-                    intent.putExtra ( "message1", "The Katse Dam, a concrete arch dam on the Malibamat'so River in Lesotho, is Africa's second largest double-curvature arch dam." );
+                    intent.putExtra ( "message1", "KATSE DAM, a concrete arch dam on the Malibamat'so River in Lesotho, is Africa's second largest double-curvature arch dam." );
                     intent.putExtra ( "message2", " The dam is part of the Lesotho Highlands Water Project, which will eventually include five large dams in remote rural areas." );
-                    intent.putExtra ( "message3", "The Katse Dam, a concrete arch dam on the Malibamat'so River in Lesotho, is Africa's second largest double-curvature arch dam. " );
+                    intent.putExtra ( "message3", "The KATSE DAM, a concrete arch dam on the Malibamat'so River in Lesotho, is Africa's second largest double-curvature arch dam. " );
                     intent.putExtra ( "name", data2[ position ] );
 
                 }
                 else if ( position == 1 ) {
-                    intent.putExtra ( "message1", "The Kome Caves are a group of cave dwellings made out of mud in the district of Berea, Lesotho 25 km east of Teyateyaneng." );
-                    intent.putExtra ( "message2", "The caves are still inhabited by the descendants of the original people who built the caves. The site has been classified as a National Heritage Site." );
-                    intent.putExtra ( "message3", "The Kome Cave Dwellings were built and protected by Chief Teleka of The Basia(cat) Clan in the early 19th century." );
+                    intent.putExtra ( "message1", "THE SEHLABATHEBE nationsl park,is located in the Maloti Mountains in Qacha's Nek District and is part of the larger Maloti-Drakensberg World Heritage site." );
+                    intent.putExtra ( "message2", "The national park is home to both striking biological diversity as well as important cultural heritage. The site has been classified as a National Heritage Site." );
+                    intent.putExtra ( "message3", "The Sehlabathebe National Park was first established on May 8, 1969." );
                     intent.putExtra ( "name", data2[ position ] );
 
                 }
                 else if ( position == 2 ) {
-                    intent.putExtra ( "message1", "Bokong Nature Reserve is one of the highest reserves in Africa. It lies at the top of the Mafika-Lisiu Pass, leading to Katse Dam and reaches an altitude of 3090m above sea level." );
-                    intent.putExtra ( "message2", "There are some outstanding views across the highlands. However, the reserves highlight is the Lepaqoa Waterfall, which freezes in winter to form a column of ice." );
-                    intent.putExtra ( "message3", "The visitors’ centre (open between 08:00 and 17:00 daily) at the Bokong Nature Reserve is perched on the edge of a 100m cliff, was built with the aim of educating visitors to the kingdom about the ecology." );
+                    intent.putExtra ( "message1", "THABA-BOSIU is a national monument and Lesotho's foremost tourist destination holding great historical significance as the birthplace of the Basotho people." );
+                    intent.putExtra ( "message2", "It is the sandstone plateu where King Moshoeshoe 1, the Basotho Nation founder established what turned out to the formidable fortress that protected his people during Lifaqane war." );
+                    intent.putExtra ( "message3", "It is located 24km outside of city of Maseru." );
                     intent.putExtra ( "name", data2[ position ] );
 
                 }
                 else if ( position == 3 ) {
-                    intent.putExtra ( "message1", "Maletsunyane Waterfalls, one of the highest single dropping waterfalls in the Southern Hemisphere, plummets 192 metres into a spectacular gorge creating clouds of spray visible from afar. " );
-                    intent.putExtra ( "message2", "Semonkong Lodge offers you the chance to explore the magnificent scenery and culture of Lesotho." );
+                    intent.putExtra ( "message1", "THE MALETSUNYANE WATER FALL, is a 192-metre-high water fall in the Southern African country Lesotho. It is located near the town of Semonkong, which also is named after the falls. " );
+                    intent.putExtra ( "message2", "The plunging water creates a reverberating echo when is contact the basin of the falls, and local legend has it that the sound comes from the wailing of the people who have drowned in the falls and has the lodge nearby." );
                     intent.putExtra ( "message3", "The Lodge together with the local community provides ponies and guides for day trips to the Maletsunyane Falls." );
                     intent.putExtra ( "name", data2[ position ] );
 
                 }
+
                 else if ( position == 4 ) {
-                    intent.putExtra ( "message1", "Found in the highlands of Lesotho, the Maluti Mountains, also spelled Maloti, form the border between Lesotho and South Africa." );
-                    intent.putExtra ( "message2", "Here you can find snow or frost on the highest peaks almost all year round and you can usually enjoy skiing between the months of May and July when the snow is plentiful." );
-                    intent.putExtra ( "message3", "The mountains offer many other activities from hiking, mountain biking, mountain climbing and there are many 4x4 trails to keep your adrenalin going" );
+                    intent.putExtra ( "message1", "THE MALIBAMATSO RIVER is a river in northern Lesotho. Its origin is near to the South African border, where it drains the eastern slopes of the Maloti Range. It flows southwards past the village of Lejone, and eventually joins the Senqu River kilometers northeast of Mohlanapeng." );
+                    intent.putExtra ( "message2", "It forms the northern arm of the Katse dam reservoir, a part of the Lesotho Highlands Water Project." );
+                    intent.putExtra ( "message3", "It has bank tributaries which are the Matsoku and Semenanyane Rivers ." );
                     intent.putExtra ( "name", data2[ position ] );
 
                 }
                 else if ( position == 5 ) {
-                    intent.putExtra ( "message1", "Thaba Bosiu lies at the historic and spiritual heart of the Sotho Kingdom. Rising to an altitude of 1,800m only 20km east of Maseru, this near-impregnable sandstone plateau served as the residence and military stronghold of Moshoeshoe I" );
-                    intent.putExtra ( "message2", "Thaba-Bosiu National Monument is a plateau situated in the Phuthiatsana Valley, about 23km south-east of Maseru, the capital city." );
-                    intent.putExtra ( "message3", " It was named Thaba-Bosiu (mountain at night) during the occupation of Moshoeshoe 1, founder of the Basotho nation in 1824." );
+                    intent.putExtra ( "message1", "The TSEHLANYANE NATIONAL PARK is a national park in LESOTHO. It is located in the Maloti Mountains in Leribe district, and is part of the larger Maloti-Drankensberg Transfrontier Conservation Area. " );
+                    intent.putExtra ( "message2", "This Lesotho northern park protects a high-altitude, 2600-metre(8,500 ft) patch of rugged wilderness, including one of Lesotho's only stands of indigenous forest with a number of rare undergrowth plants that are unique to this woodland habitat." );
+                    intent.putExtra ( "message3", " The name 'Ts'hehlanyane' is the local common for the berg bamboo from which the river and park take their name. It is fitting that the park should bear the name of this Drankensberg endemic plant. " );
                     intent.putExtra ( "name", data2[ position ] );
 
                 }
                 else if ( position == 6 ) {
-                    intent.putExtra ( "message1", "Thabana Ntlenyana, also called Thadentsonyane, Thabantshonyana, or Mount Ntlenyana, mountain peak (11,424 feet [3,482 m]) in the Drakensberg" );
-                    intent.putExtra ( "message2", "The peak lies in Lesotho, an independent country entirely within South Africa, just west of the border with the province of KwaZulu-Natal." );
-                    intent.putExtra ( "message3", " Nearby are the headwaters of the Orange River, which flows west to the Atlantic Ocean." );
+                    intent.putExtra ( "message1", "LETSENG DIAMOND MINE is located in the Maluti Mountains of Lesotho and is renowned for its recovery of large, high quality, exceptional Type 2 diamonds ." );
+                    intent.putExtra ( "message2", "It comprises two 91 Ma kimberlite pipes." );
+                    intent.putExtra ( "message3", "Is most popular for quality diamonds" );
                     intent.putExtra ( "name", data2[ position ] );
 
-                }
 
-                Toast.makeText ( context, data[ position ], Toast.LENGTH_SHORT ).show ( );
+                    Toast.makeText ( context, data[ position ], Toast.LENGTH_SHORT ).show ( );
                 context.startActivity ( intent );
             }
         } );
@@ -149,9 +149,9 @@ class MainActivity extends AppCompatActivity {
     RecyclerView    recyclerView;
     RecyclerAdapter adapter;
 
-    String tittles[] = {"KATSE","KOME CAVES","BOKONG","MALETSUNAYANE","MALUTI MOUNTAINS","THABABOSIU","THABANA NTLENYANA"};
-    int [] imagesResources = {R.drawable.katse, R.drawable.komecaves, R.drawable.bokong, R.drawable.maletsunyane, R.drawable.malutimountains, R.drawable.thababosiu, R.drawable.thabanantlenyana};
-    String subTittle[] = {"Big damn", "Caves", "Nature researve","192m tall falls","Lofty mountain range of Lesotho","Military remains & a recreated village","Landmark summit & hiking route"};
+    String tittles[] = {"KATSE DAM","SEHLABATHEBE NATIONAL PARK","THABA-BOSIU","MALETSUNAYANE FALLS","MALIBAMATSO RIVER","TSEHLANYANE NATIONAL PARK ","LETSENG DIAMOND MINE"};
+    int [] imagesResources = {R.drawable.katse, R.drawable.letsa, R.drawable.sehla, R.drawable.maletsunyane, R.drawable.thabanamorena, R.drawable.thababosiu, R.drawable.maliba};
+    String subTittle[] = {"HUGE DAM", "NATURE RESERVE", "HISTORICAL PLACE","WATERFALL","BIG RIVER","NATURE RESERVE ","DIAMOND MINE."};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
